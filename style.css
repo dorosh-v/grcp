@@ -1,0 +1,54 @@
+/*
+Theme Name:		 Unite Child
+Theme URI:		 http://childtheme-generator.com/
+Description:	 Unite Child is a child theme of Unite, created by ChildTheme-Generator.com
+Author:			 support
+Author URI:		 http://childtheme-generator.com/
+Template:		 unite
+Version:		 1.0.0
+Text Domain:	 unite-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+.item-thumb {
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #CCC;
+    margin-top: 50px;
+    position: relative;
+}
+
+.item-title {
+    font-size: 18px;
+}
+
+.item-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    line-height: 26px;
+    text-align: left;
+}
+
+.item-info b {
+    margin-top: 30px;
+}
+
+.item-info i, .item-info b {
+    display: block;
+    margin-left: 40px;
+}
+
+.item-thumb:hover .item-info {
+    display: block;
+}
